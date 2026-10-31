@@ -1,0 +1,94 @@
+@media screen and (max-width: 768px) {
+  header .hero-content {
+    height: auto;
+    min-height: 100vh;
+    padding: 100px 0 40px;
+  }
+
+  header .hero-content .hero-text h1 {
+    font-size: 3rem;
+    line-height: 1.2;
+  }
+
+  header .hero-content .hero-text p {
+    font-size: 1.125rem;
+    line-height: 1.5;
+  }
+
+  header .hero-content .hero-text p br {
+    display: none;
+  }
+
+  .featured-properties .head-title h2 {
+    font-size: 2.5rem;
+  }
+
+  .featured-properties .head-title p {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .our-services .head-title h2 {
+    font-size: 2.5rem;
+  }
+
+  .our-services .head-title p {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .our-clients .head-title h2 {
+    font-size: 2.5rem;
+  }
+
+  .our-clients .head-title p {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .faq .head-title h2 {
+    font-size: 2.5rem;
+  }
+
+  .faq .head-title p {
+    width: 100%;
+    font-size: 1rem;
+  }
+
+  .contact-us .head-title h2 {
+    font-size: 2.5rem;
+  }
+
+  .contact-us .head-title p {
+    width: 100%;
+    font-size: 1rem;
+  }
+  header .navbar-nav .nav-item::after {
+    display: none;
+  }
+
+  .our-clients .card-info .card-inner {
+    width: 100%;
+    padding: 24px 20px;
+  }
+
+  .our-clients .card-info .card-inner p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 991.98px) {
+  header .dropdown-menu {
+    width: 100%;
+    left: auto;
+    transform: none;
+    max-height: calc(100vh - 84px);
+    overflow-y: auto;
+  }
+
+  header .navbar-nav .nav-item::after {
+    display: none;
+  }
+}
